@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAMB 2026 Questions Bank</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f7fa; text-align:center; }
+    h1 { color:#004d40; margin-top:20px; }
+    .btn { padding:12px 20px; margin:10px; border:none; border-radius:8px; font-size:16px; cursor:pointer; }
+    .btn-primary { background:#006400; color:white; }
+    .section { display:none; padding:20px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap:20px; margin-top:20px; }
+    .book { position:relative; padding:40px 20px; border-radius:12px; color:white; box-shadow:0 4px 8px rgba(0,0,0,0.2); }
+    .book img { width:50px; position:absolute; top:15px; left:15px; }
+    .book h2 { margin-top:50px; font-size:22px; }
+    .book p { margin-top:10px; font-weight:bold; }
+    .whatsapp { display:inline-block; background:#25d366; color:white; padding:8px 16px; text-decoration:none; border-radius:6px; margin-top:8px; }
+  </style>
+</head>
+<body>
+
+<!-- Welcome Page -->
+<div id="welcome">
+  <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Joint_Admissions_and_Matriculation_Board_%28JAMB%29_logo.png" alt="JAMB Logo" width="100">
+  <h1>Aspiring JAMB Candidate?</h1>
+  <p>Prepare smart with <b>2026 JAMB Questions Bank</b>!</p>
+  <button class="btn btn-primary" onclick="showSectionChoice()">Yes, I am</button>
+</div>
+
+<!-- Section Choice -->
+<div id="sections" class="section">
+  <h1>Select Your Stream</h1>
+  <button class="btn" onclick="showSubjects('arts')">Arts</button>
+  <button class="btn" onclick="showSubjects('science')">Science</button>
+  <button class="btn" onclick="showSubjects('commercial')">Commercial</button>
+</div>
+
+<!-- Arts Subjects -->
+<div id="arts" class="section">
+  <h1>Arts Subjects</h1>
+  <div class="grid">
+    <div class="book" style="background: linear-gradient(135deg,#673ab7,#9575cd);">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Joint_Admissions_and_Matriculation_Board_%28JAMB%29_logo.png" alt="JAMB Logo">
+      <h2>Use of English</h2>
+      <p>JAMB 2026 Questions Bank - ₦500</p>
+      <a class="whatsapp" href="https://wa.me/2349043057127?text=I want Use of English JAMB 2026 Questions Bank">Buy on WhatsApp</a>
+    </div>
+    <div class="book" style="background: linear-gradient(135deg,#f44336,#ef9a9a);">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Joint_Admissions_and_Matriculation_Board_%28JAMB%29_logo.png" alt="JAMB Logo">
+      <h2>Literature in English</h2>
+      <p>JAMB 2026 Questions Bank - ₦500</p>
+      <a class="whatsapp" href="https://wa.me/2349043057127?text=I want Literature JAMB 2026 Questions Bank">Buy on WhatsApp</a>
+    </div>
+    <div class="book" style="background: linear-gradient(135deg,#e91e63,#f48fb1);">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Joint_Admissions_and_Matriculation_Board_%28JAMB%29_logo.png" alt="JAMB Logo">
+      <h2>Government</h2>
+      <p>JAMB 2026 Questions Bank - ₦500</p>
+      <a class="whatsapp" href="https://wa.me/2349043057127?text=I want Government JAMB 2026 Questions Bank">Buy on WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<!-- Science Subjects -->
+<div id="science" class="section">
+  <h1>Science Subjects</h1>
+  <div class="grid">
+    <div class="book" style="background: linear-gradient(135deg,#2196f3,#64b5f6);">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Joint_Admissions_and_Matriculation_Board_%28JAMB%29_logo.png" alt="JAMB Logo">
+      <h2>Use of English</h2>
+      <p>JAMB 2026 Questions Bank - ₦500</p>
+      <a class="whatsapp" href="https://wa.me/2349043057127?text=I want Use of English JAMB 2026 Questions Bank">Buy on WhatsApp</a>
+    </div>
+    <div class="book" style="background: linear-gradient(135deg,#4caf50,#81c784);">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Joint_Admissions_and_Matriculation_Board_%28JAMB%29_logo.png" alt="JAMB Logo">
+      <h2>Physics</h2>
+      <p>JAMB 2026 Questions Bank - ₦500</p>
+      <a class="whatsapp" href="https://wa.me/2349043057127?text=I want Physics JAMB 2026 Questions Bank">Buy on WhatsApp</a>
+    </div>
+    <div class="book" style="background: linear-gradient(135deg,#ff9800,#ffb74d);">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Joint_Admissions_and_Matriculation_Board_%28JAMB%29_logo.png" alt="JAMB Logo">
+      <h2>Chemistry</h2>
+      <p>JAMB 2026 Questions Bank - ₦500</p>
+      <a class="whatsapp" href="https://wa.me/2349043057127?text=I want Chemistry JAMB 2026 Questions Bank">Buy on WhatsApp</a>
+    </div>
+    <div class="book" style="background: linear-gradient(135deg,#9c27b0,#ba68c8);">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Joint_Admissions_and_Matriculation_Board_%28JAMB%29_logo.png" alt="JAMB Logo">
+      <h2>Biology</h2>
+      <p>JAMB 2026 Questions Bank - ₦500</p>
+      <a class="whatsapp" href="https://wa.me/2349043057127?text=I want Biology JAMB 2026 Questions Bank">Buy on WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<!-- Commercial Subjects -->
+<div id="commercial" class="section">
+  <h1>Commercial Subjects</h1>
+  <div class="grid">
+    <div class="book" style="background: linear-gradient(135deg,#795548,#a1887f);">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Joint_Admissions_and_Matriculation_Board_%28JAMB%29_logo.png" alt="JAMB Logo">
+      <h2>Use of English</h2>
+      <p>JAMB 2026 Questions Bank - ₦500</p>
+      <a class="whatsapp" href="https://wa.me/2349043057127?text=I want Use of English JAMB 2026 Questions Bank">Buy on WhatsApp</a>
+    </div>
+    <div class="book" style="background: linear-gradient(135deg,#607d8b,#90a4ae);">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Joint_Admissions_and_Matriculation_Board_%28JAMB%29_logo.png" alt="JAMB Logo">
+      <h2>Economics</h2>
+      <p>JAMB 2026 Questions Bank - ₦500</p>
+      <a class="whatsapp" href="https://wa.me/2349043057127?text=I want Economics JAMB 2026 Questions Bank">Buy on WhatsApp</a>
+    </div>
+    <div class="book" style="background: linear-gradient(135deg,#ff5722,#ff8a65);">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Joint_Admissions_and_Matriculation_Board_%28JAMB%29_logo.png" alt="JAMB Logo">
+      <h2>Accounting</h2>
+      <p>JAMB 2026 Questions Bank - ₦500</p>
+      <a class="whatsapp" href="https://wa.me/2349043057127?text=I want Accounting JAMB 2026 Questions Bank">Buy on WhatsApp</a>
+    </div>
+    <div class="book" style="background: linear-gradient(135deg,#3f51b5,#7986cb);">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/35/Joint_Admissions_and_Matriculation_Board_%28JAMB%29_logo.png" alt="JAMB Logo">
+      <h2>Commerce</h2>
+      <p>JAMB 2026 Questions Bank - ₦500</p>
+      <a class="whatsapp" href="https://wa.me/2349043057127?text=I want Commerce JAMB 2026 Questions Bank">Buy on WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  function showSectionChoice() {
+    document.getElementById('welcome').style.display = 'none';
+    document.getElementById('sections').style.display = 'block';
+  }
+
+  function showSubjects(sectionId) {
+    document.getElementById('sections').style.display = 'none';
+    document.getElementById(sectionId).style.display = 'block';
+  }
+</script>
+
+</body>
+</html>
