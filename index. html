@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAMB Bookstore</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #006400;
+      color: white;
+      padding: 20px;
+    }
+    h2 {
+      background: #ddd;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    .subject {
+      background: white;
+      margin: 15px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 150px;
+      height: auto;
+      border-radius: 8px;
+    }
+    button {
+      background: #25d366;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #1ebc57;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>JAMB Bookstore</h1>
+    <p>Get your JAMB subject books easily - ₦1000 for 2 books</p>
+  </header>
+
+  <!-- Science Section -->
+  <h2>Science Subjects</h2>
+  <div class="subject">
+    <img src="https://via.placeholder.com/150" alt="Biology Book">
+    <h3>Biology</h3>
+    <p>Price: ₦1000 (2 Books)</p>
+    <a href="https://wa.me/2349043057127?text=Hello%2C%20I%20want%20to%20buy%20Biology%20books">
+      <button>Buy on WhatsApp</button>
+    </a>
+  </div>
+  <div class="subject">
+    <img src="https://via.placeholder.com/150" alt="Chemistry Book">
+    <h3>Chemistry</h3>
+    <p>Price: ₦1000 (2 Books)</p>
+    <a href="https://wa.me/2349043057127?text=Hello%2C%20I%20want%20to%20buy%20Chemistry%20books">
+      <button>Buy on WhatsApp</button>
+    </a>
+  </div>
+  <div class="subject">
+    <img src="https://via.placeholder.com/150" alt="Physics Book">
+    <h3>Physics</h3>
+    <p>Price: ₦1000 (2 Books)</p>
+    <a href="https://wa.me/2349043057127?text=Hello%2C%20I%20want%20to%20buy%20Physics%20books">
+      <button>Buy on WhatsApp</button>
+    </a>
+  </div>
+  <div class="subject">
+    <img src="https://via.placeholder.com/150" alt="Mathematics Book">
+    <h3>Mathematics</h3>
+    <p>Price: ₦1000 (2 Books)</p>
+    <a href="https://wa.me/2349043057127?text=Hello%2C%20I%20want%20to%20buy%20Mathematics%20books">
+      <button>Buy on WhatsApp</button>
+    </a>
+  </div>
+
+  <!-- Art Section -->
+  <h2>Art Subjects</h2>
+  <div class="subject">
+    <img src="https://via.placeholder.com/150" alt="Literature Book">
+    <h3>Literature in English</h3>
+    <p>Price: ₦1000 (2 Books)</p>
+    <a href="https://wa.me/2349043057127?text=Hello%2C%20I%20want%20to%20buy%20Literature%20books">
+      <button>Buy on WhatsApp</button>
+    </a>
+  </div>
+  <div class="subject">
+    <img src="https://via.placeholder.com/150" alt="Government Book">
+    <h3>Government</h3>
+    <p>Price: ₦1000 (2 Books)</p>
+    <a href="https://wa.me/2349043057127?text=Hello%2C%20I%20want%20to%20buy%20Government%20books">
+      <button>Buy on WhatsApp</button>
+    </a>
+  </div>
+  <div class="subject">
+    <img src="https://via.placeholder.com/150" alt="CRS Book">
+    <h3>Christian Religious Studies (CRS)</h3>
+    <p>Price: ₦1000 (2 Books)</p>
+    <a href="https://wa.me/2349043057127?text=Hello%2C%20I%20want%20to%20buy%20CRS%20books">
+      <button>Buy on WhatsApp</button>
+    </a>
+  </div>
+  <div class="subject">
+    <img src="https://via.placeholder.com/150" alt="English Book">
+    <h3>English</h3>
+    <p>Price: ₦1000 (2 Books)</p>
+    <a href="https://wa.me/2349043057127?text=Hello%2C%20I%20want%20to%20buy%20English%20books">
+      <button>Buy on WhatsApp</button>
+    </a>
+  </div>
+
+  <!-- Commercial Section -->
+  <h2>Commercial Subjects</h2>
+  <div class="subject">
+    <img src="https://via.placeholder.com/150" alt="Economics Book">
+    <h3>Economics</h3>
+    <p>Price: ₦1000 (2 Books)</p>
+    <a href="https://wa.me/2349043057127?text=Hello%2C%20I%20want%20to%20buy%20Economics%20books">
+      <button>Buy on WhatsApp</button>
+    </a>
+  </div>
+  <div class="subject">
+    <img src="https://via.placeholder.com/150" alt="Commerce Book">
+    <h3>Commerce</h3>
+    <p>Price: ₦1000 (2 Books)</p>
+    <a href="https://wa.me/2349043057127?text=Hello%2C%20I%20want%20to%20buy%20Commerce%20books">
+      <button>Buy on WhatsApp</button>
+    </a>
+  </div>
+  <div class="subject">
+    <img src="https://via.placeholder.com/150" alt="Accounting Book">
+    <h3>Accounting</h3>
+    <p>Price: ₦1000 (2 Books)</p>
+    <a href="https://wa.me/2349043057127?text=Hello%2C%20I%20want%20to%20buy%20Accounting%20books">
+      <button>Buy on WhatsApp</button>
+    </a>
+  </div>
+  <div class="subject">
+    <img src="https://via.placeholder.com/150" alt="Business Studies Book">
+    <h3>Business Studies</h3>
+    <p>Price: ₦1000 (2 Books)</p>
+    <a href="https://wa.me/2349043057127?text=Hello%2C%20I%20want%20to%20buy%20Business%20books">
+      <button>Buy on WhatsApp</button>
+    </a>
+  </div>
+
+</body>
+</html>
